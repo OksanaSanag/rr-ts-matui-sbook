@@ -1,10 +1,11 @@
-import React from 'react';
+import ErrorBoundary from './ErrorBoundary';
+import Main from './Main';
 
 const App = () => {
   return (
-    <div>
-
-    </div>
+    <ErrorBoundary>
+      <Main />
+    </ErrorBoundary>
   )
 }
 
